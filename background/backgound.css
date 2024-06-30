@@ -1,0 +1,407 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.png) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#header{ height: 10%;
+   width: 100%;
+    position: fixed; 
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 5px solid rgb(255, 255, 255);
+     background-image: url(background.png) ;
+     background-size: cover;
+  
+}
+#logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.text a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 9, 9, 0.897) ;
+    text-shadow: 2px 2px 2px black;
+     font-family:sans-serif;
+     background-color: transparent;
+     border-style: solid  ;
+     border-color: #fbfcfd;;
+     padding: 7px;
+     
+     border-radius: 18px;
+     
+}
+
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    margin-top: 30%;
+     margin-left: 5%;
+    transform: translateY(-50%);
+    z-index: 2;
+    
+
+}
+#box1{
+    width: 100%;
+    height: 60vh;
+}
+
+button{
+    margin-left: 7%;
+    position: sticky;
+}
+
+h1{
+    font-size: 90px;
+}
+ 
+
+ .text a:hover{ 
+    color: rgb(241, 245, 11);
+}
+
+#contractdetail{
+    align-items: center;
+   text-decoration: none;
+    font-weight: lighter;
+}
+
+
+    
+ 
+#inst img{ border-radius: 50%;
+    width:20px ;
+    margin-left: -10%;
+    margin-right: 0%;
+ a{margin: 0%; 
+    margin-top: 0%;}  }
+
+     .biglogo{ 
+        left: 120%;
+    position: absolute;
+        display: flex;
+        justify-items: right;
+        align-items: center;
+        justify-items:center;
+       
+        bottom: 20%;
+    }
+   .biglogo  img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border:5px ;
+    border-style: solid;
+    box-shadow:  0px 0px 30px;
+    
+   } 
+ 
+#page2{  height: 100vh;
+    width: 100%;
+    background-image: url(2.png);
+    background-size: cover;
+    background-position: center;
+     overflow: hidden;}
+
+
+
+     #box2{ height: 10vh;
+        width: 100%;
+           }
+
+    #box3{ height: 12vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        font-size: 35px; }
+
+     #box3 :hover{
+        background-color: #fbfcfd;
+     }   
+
+    #row1{
+        border-radius:10px  ;
+        border-style: solid;
+        background-color: rgb(0, 180, 45);
+        padding: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-left: 45px;
+  
+    }    
+
+    #row2{
+        border-radius:10px  ;
+        border-style: solid;
+        background-color: rgb(0, 159, 180);
+        padding: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+   
+       
+    }
+
+    #row3{
+        border-radius:10px  ;
+        border-style: solid;
+        background-color: rgb(180, 177, 0);
+        padding: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+   
+      
+    }
+   
+    #row4{
+        border-radius:10px  ;
+        border-style: solid;
+        background-color: rgb(180, 87, 0);
+        padding: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+   
+    
+    }
+   
+    #row5{
+        border-radius:10px  ;
+        border-style: solid;
+        background-color: rgb(180, 0, 165);
+        padding: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-right: 10px;}
+   
+   
+   
+    .page3{ 
+        width: 100%;
+        height: 78vh;
+        display: flex;
+    
+
+    }
+  
+    .box4 img{ margin-top: 5px;
+              margin-left: 8px;
+        border-radius: 10px;
+     }
+    
+    .box4{ height: 78vh;
+        width: 27%;
+        margin-top: 25px;
+        
+        margin-bottom: 1px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    }
+   
+    #back1{
+        border: solid;
+        width: 90%;
+        height:60px ;
+        
+        background-color: rgb(126, 4, 197);
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+      
+        
+    } 
+    .box4,a :hover{ color: #fbfcfd;}
+    #back1,img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+       
+     }
+     #back1 a{
+        align-items: center;
+        display: flex;
+        font-size: 33px;
+    color: black;
+    margin-left: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+     }
+  
+     #back2{ border: solid;
+        width: 90%;
+        height:60px ;
+        background-color: rgb(126, 4, 197);
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+      border-radius: 10px;
+        
+    } 
+    #back2 img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+     }
+     #back2 a{
+        align-items: center;
+        display: flex;
+        font-size: 33px;
+    color: black;
+    margin-left: 6px;
+    margin-right: 3px;
+    text-decoration: none;
+     }
+  
+     #back3{ border: solid;
+        width: 90%;
+        height:60px ;
+        background-color: rgb(182, 0, 76);
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        border-radius: 10px;
+        
+    } 
+    #back3 img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-left: -122px;
+     }
+     #back3 a{
+        align-items: center;
+        display: flex;
+        font-size: 33px;
+    color: black;
+    margin-left: 6px;
+    margin-right: 3px;
+    text-decoration: none;
+     }
+
+     #back4{ border: solid;
+        width: 90%;
+        height:60px ;
+        background-color: rgb(240, 216, 0);
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        border-radius: 10px;
+        
+    } 
+    #back4 img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-left: -4px;
+     }
+     #back4 a{
+        align-items: center;
+        display: flex;
+        font-size: 33px;
+    color: black;
+    margin-left: 6px;
+    margin-right: 3px;
+    text-decoration: none;
+     }
+
+     #back5{ border: solid;
+        width: 90%;
+        height:60px ;
+        background-color: rgb(40, 240, 0); 
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        border-radius: 10px;
+        
+    } 
+    #back5 img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+     }
+     #back5 a{
+        align-items: center;
+        display: flex;
+        font-size: 32px;
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+     }
+
+     #back6{ border: solid;
+        width: 90%;
+        height:60px ;
+        background-color: rgb(240, 0, 208); 
+       margin-top: 10px;
+       margin-left: 8px;
+        border-style: solid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        border-radius: 10px;
+        
+    } 
+    #back6 img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+       margin-right: 18px;
+    margin-left: -14px;
+     }
+     #back6 a{
+        align-items: center;
+        display: flex;
+        font-size: 30px;
+    color: black;
+    margin-left: 0;
+    margin-right: 3px;
+    text-decoration: none;
+     }
+
+    
+
+    #box5{ height: 70vh;
+        width: 73%;
+  }
+
+    #box5 p{
+      border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+
+    #box5 iframe{   margin-top: 39px;     height: 70vh;
+        width: 90%;}
